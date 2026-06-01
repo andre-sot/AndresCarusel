@@ -1,0 +1,30 @@
+/*Selector {propiedad : valor ; . . . } */
+
+body {
+    background-color: #86b7fe;
+}
+
+p,h4,h5{
+    color: white;
+}
+
+.barra_navegacion{
+    border: 6px solid lightgoldenrodyellow;
+    text-align: center;
+}
+
+.contenido p,h5 {
+    color: #0b5ed7;
+    font-style: italic;
+    text-align: center;
+}
+
+.pie_pagina {
+    border: 4px solid lightgoldenrodyellow;
+    text-align: center;
+}
+
+.pie_pagina p{
+    padding: 0;
+    margin: 0;
+}
