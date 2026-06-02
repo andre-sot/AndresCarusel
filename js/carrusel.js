@@ -14,6 +14,6 @@ document.getElementById("siguiente").addEventListener("click",()=> {
 });
 
 document.getElementById("anterior").addEventListener("click",()=> {
-    if(i > 0){i++;}
+    if(i > 0){i--;}
     document.getElementById("img").setAttribute("src",imagenes[i]);
 });
